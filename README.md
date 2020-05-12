@@ -1,9 +1,9 @@
-# python
+#python
 
-test
+学习python，各个击破
 
-##test
+##1.学习python基础
 
-###test
+##2.学习函数
 
-实时 是   
+  

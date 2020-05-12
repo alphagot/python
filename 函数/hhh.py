@@ -1,2 +1,3 @@
 a="hello"
-print(a)
+
+print(a*2)

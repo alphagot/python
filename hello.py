@@ -1,2 +1,2 @@
 print("hello")
-print("你是傻逼")
+print("你是大傻逼")

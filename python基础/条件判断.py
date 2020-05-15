@@ -8,3 +8,5 @@ elif age >= 6:
 else:
     print('kid')
 
+state = 'adult' if age >= 18 else "teenager" if age >= 6 else 'kid'
+print(state)

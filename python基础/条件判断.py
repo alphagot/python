@@ -7,3 +7,4 @@ elif age >= 6:
     print('teenager')
 else:
     print('kid')
+

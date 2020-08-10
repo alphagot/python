@@ -16,8 +16,12 @@ a2 = a
 a = 3
 print(a, a2)
 
-
 s3[0][1] = 100
+print(s)
+print(s2)
+print(s3)
+
+s[2] = "abc"
 print(s)
 print(s2)
 print(s3)

@@ -26,6 +26,7 @@ print(a)
 b = [1, 21, 4, 34, 5, 78, 53, 12]
 b.sort(reverse=True)
 print(b)
+
 # b.reverse()
 # print(b)
 

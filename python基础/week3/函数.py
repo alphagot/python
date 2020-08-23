@@ -6,9 +6,11 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLineEdit, \
      QGridLayout, QLabel, QMessageBox, QComboBox, \
      QCheckBox
+
 import serial
 import time
 import serial.tools.list_ports
+
 
 
 class CO2UI(QWidget):
@@ -18,6 +20,7 @@ class CO2UI(QWidget):
         self.initUI()
         global flag_open  # 标志位，判断串口是否打开
         self.flag_open = 0
+
 
     def initUI(self):
         grid = QGridLayout()

@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import QTimer
 from ui_demo_1 import Ui_Form
 
+
 class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
     def __init__(self):
         super(Pyqt5_Serial, self).__init__()

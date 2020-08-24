@@ -2,6 +2,7 @@
 # date:  2020/8/23
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
@@ -79,7 +80,7 @@ class Ui_Form(object):
         self.state_label.setText("")
         self.state_label.setTextFormat(QtCore.Qt.AutoText)
         self.state_label.setScaledContents(True)
-        self.state_label.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.state_label.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.state_label.setObjectName("state_label")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.SpanningRole, self.state_label)
         self.verticalGroupBox = QtWidgets.QGroupBox(Form)
@@ -139,7 +140,7 @@ class Ui_Form(object):
         self.timer_send_cb.setObjectName("timer_send_cb")
         self.lineEdit_3 = QtWidgets.QLineEdit(Form)
         self.lineEdit_3.setGeometry(QtCore.QRect(350, 390, 61, 20))
-        self.lineEdit_3.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.lineEdit_3.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.dw = QtWidgets.QLabel(Form)
         self.dw.setGeometry(QtCore.QRect(420, 390, 54, 20))
@@ -193,11 +194,12 @@ class Ui_Form(object):
         self.s1__box_6.setItemText(0, _translate("Form", "1"))
         self.verticalGroupBox.setTitle(_translate("Form", "接受区"))
         self.verticalGroupBox_2.setTitle(_translate("Form", "发送区"))
-        self.s3__send_text.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'SimSun\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">123456</p></body></html>"))
+        self.s3__send_text.setHtml(_translate("Form",
+                                              "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+                                              "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+                                              "p, li { white-space: pre-wrap; }\n"
+                                              "</style></head><body style=\" font-family:\'SimSun\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+                                              "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">123456</p></body></html>"))
         self.s3__send_button.setText(_translate("Form", "发送"))
         self.s3__clear_button.setText(_translate("Form", "清除"))
         self.formGroupBox1.setTitle(_translate("Form", "串口状态"))
@@ -209,7 +211,3 @@ class Ui_Form(object):
         self.timer_send_cb.setText(_translate("Form", "定时发送"))
         self.lineEdit_3.setText(_translate("Form", "1000"))
         self.dw.setText(_translate("Form", "ms/次"))
-
-
-
-
